@@ -18,61 +18,13 @@ namespace The_best_calc
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            double first = Convert.ToDouble(textBox1.Text);
-            double second = Convert.ToDouble(textBox2.Text);
-          //double answer = first + second;
-       //     textBox3.Text = answer.ToString();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            double first = Convert.ToDouble(textBox1.Text);
-            double second = Convert.ToDouble(textBox2.Text);
-          //  double answer = first-second;
-        //    textBox3.Text = answer.ToString();
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            double first = Convert.ToDouble(textBox1.Text);
-            double second = Convert.ToDouble(textBox2.Text);
-         //   double answer = first*second;
-        //    textBox3.Text = answer.ToString();
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            double first = Convert.ToDouble(textBox1.Text);
-            double second = Convert.ToDouble(textBox2.Text);
-        //   textBox3.Text = answer.ToString();
-        }
-
         private void Action(object sender, EventArgs e)
         {
             double first = Convert.ToDouble(textBox1.Text);
             double second = Convert.ToDouble(textBox2.Text);
             double answer;
-            switch (((Button) sender).Name)
-            {
-                case "button1": 
-                    answer = first + second;
-                    break;
-                case "button2":
-                    answer = first - second;
-                    break;
-                case "button3":
-                    answer = first * second;
-                    break;
-                case "button4":
-                    answer = first / second;
-                    break;
-                default:
-                    throw new Exception("Неизвестная операция");
-
-            }
-
+            ICalculator calculator = Factory.Create(((Button) sender).Name);
+            answer = calculator.Action(first, second);
             textBox3.Text = answer.ToString();
         }
     }
