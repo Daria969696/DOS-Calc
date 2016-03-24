@@ -27,5 +27,14 @@ namespace The_best_calc
             answer = calculator.Action(first, second);
             textBox3.Text = answer.ToString();
         }
+
+        private void ActionSingle(object sender, EventArgs e)
+        {
+            double first = Convert.ToDouble(textBox1.Text);
+            double answer;
+            Isingle calculator = FactorySingle.Create(((Button)sender).Name);
+            answer = calculator.Action(first);
+            textBox3.Text = answer.ToString();
+        }
     }
 }
