@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The best calc", "The best calc\The best calc.csproj", "{EABCEAC3-A576-422E-85A4-1DB7C5619929}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The best calc.Tests", "The best calc.Tests\The best calc.Tests.csproj", "{D1A0DD03-CFF9-435D-B230-F4DE2CC000E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{EABCEAC3-A576-422E-85A4-1DB7C5619929}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EABCEAC3-A576-422E-85A4-1DB7C5619929}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EABCEAC3-A576-422E-85A4-1DB7C5619929}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1A0DD03-CFF9-435D-B230-F4DE2CC000E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1A0DD03-CFF9-435D-B230-F4DE2CC000E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1A0DD03-CFF9-435D-B230-F4DE2CC000E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1A0DD03-CFF9-435D-B230-F4DE2CC000E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
