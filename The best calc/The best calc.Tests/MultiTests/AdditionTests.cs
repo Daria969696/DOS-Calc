@@ -11,7 +11,7 @@ namespace The_best_calc.Tests.MultiTests
         {
             Addition calc = new Addition();
             double result = calc.Action(5, 6);
-            Assert.Equals(11, result);
+            Assert.AreEqual(11, result);
         }
     }
 }
