@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace The_best_calc
+namespace The_best_calc.Single
 {
-    public class Sqrt : Isingle
+    public class Sqrt : ISingle
     {
         public double Action(double first)
         {

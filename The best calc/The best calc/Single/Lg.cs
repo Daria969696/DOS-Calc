@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace The_best_calc
+namespace The_best_calc.Single
 {
-    public class Lg : Isingle
+    public class Lg : ISingle
     {
         public double Action(double first)
         {

@@ -44,30 +44,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Addition.cs" />
-    <Compile Include="Atg.cs" />
-    <Compile Include="Cos.cs" />
-    <Compile Include="Deduction.cs" />
-    <Compile Include="Division.cs" />
-    <Compile Include="Factory.cs" />
-    <Compile Include="FactorySingle.cs" />
+    <Compile Include="Multi\Addition.cs" />
+    <Compile Include="Single\Atg.cs" />
+    <Compile Include="Single\Cos.cs" />
+    <Compile Include="Multi\Deduction.cs" />
+    <Compile Include="Multi\Division.cs" />
+    <Compile Include="Multi\Factory.cs" />
+    <Compile Include="Single\FactorySingle.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="ICalculator.cs" />
-    <Compile Include="Involution.cs" />
-    <Compile Include="Isingle.cs" />
-    <Compile Include="Lg.cs" />
-    <Compile Include="Ln.cs" />
-    <Compile Include="Multiplication.cs" />
+    <Compile Include="Multi\ICalculator.cs" />
+    <Compile Include="Single\Involution.cs" />
+    <Compile Include="Single\Isingle.cs" />
+    <Compile Include="Single\Lg.cs" />
+    <Compile Include="Single\Ln.cs" />
+    <Compile Include="Multi\Multiplication.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Sin.cs" />
-    <Compile Include="Sqrt.cs" />
-    <Compile Include="Tg.cs" />
+    <Compile Include="Single\Sin.cs" />
+    <Compile Include="Single\Sqrt.cs" />
+    <Compile Include="Single\Tg.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

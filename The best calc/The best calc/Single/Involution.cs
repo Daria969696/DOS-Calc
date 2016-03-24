@@ -1,8 +1,8 @@
 using System;
 
-namespace The_best_calc
+namespace The_best_calc.Single
 {
-    public class Involution : Isingle
+    public class Involution : ISingle
     {
         public double Action(double first)
         {

@@ -1,4 +1,4 @@
-﻿namespace The_best_calc
+﻿namespace The_best_calc.Multi
 {
     public class Addition : ICalculator
     {
