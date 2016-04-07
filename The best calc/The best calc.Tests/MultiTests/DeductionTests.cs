@@ -6,16 +6,15 @@ namespace The_best_calc.Tests.MultiTests
     [TestFixture]
     public class DeductionTests
     {
-        [Test]
-        public void SimpleTest()
+        [TestCase(5, 6, -1)]
+        [TestCase(0, 0, 0)]
+        [TestCase(78, 6, 72)]
+        [TestCase(-98.32, -6, -92.32)]
+        public void SimpleTest(double first, double second, double expected)
         {
             Deduction calc = new Deduction();
-            double result = calc.Action(5, 6);
-            Assert.AreEqual(-1, result);
-            result = calc.Action(48, 6);
-            Assert.AreEqual(42, result);
-            result = calc.Action(0.23, 6);
-            Assert.AreEqual(-5.77, result);
+            double result = calc.Action(first, second);
+            Assert.AreEqual(expected, result);        
         }
     }
 }
