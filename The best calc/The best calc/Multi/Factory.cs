@@ -2,8 +2,16 @@
 
 namespace The_best_calc.Multi
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public static class Factory
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="name"></param>
+        /// <returns></returns>
         public static ICalculator Create(string name)
         {
             switch (name)
