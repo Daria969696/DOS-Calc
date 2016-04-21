@@ -4,6 +4,11 @@ namespace The_best_calc.Single
 {
     public class FactorySingle
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="name"></param>
+        /// <returns></returns>
         public static ISingle Create(string name)
         {
             switch (name)
