@@ -1,5 +1,6 @@
 ﻿using System;
 using NUnit.Framework;
+using The_best_calc.Multi;
 using The_best_calc.Single;
 
 namespace The_best_calc.Tests.SingleTests
@@ -15,6 +16,17 @@ namespace The_best_calc.Tests.SingleTests
             Lg calc = new Lg();
             double result = calc.Action(arg);
             Assert.AreEqual(expected, result);
-        }    
+        }
+
+        public void Zero()
+        {
+            Lg calc = new Lg();
+            Assert.Throws<Exception>(() => calc.Action(0));
+        }
+        public void Negative()
+        {
+            Lg calc = new Lg();
+            Assert.Throws<Exception>(() => calc.Action(-9));
+        }
     }
 }

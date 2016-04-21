@@ -14,6 +14,11 @@ namespace The_best_calc.Tests.SingleTests
              Tg calc = new Tg();
              double result = calc.Action(arg);
              Assert.AreEqual(expected, result, 0.1);
-         }   
+         }
+         public void Zero()
+         {
+             Tg calc = new Tg();
+             Assert.Throws<Exception>(() => calc.Action(0));
+         }
     }
 }

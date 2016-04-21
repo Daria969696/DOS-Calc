@@ -14,6 +14,16 @@ namespace The_best_calc.Tests.SingleTests
             Ln calc = new Ln();
             double result = calc.Action(arg);
             Assert.AreEqual(expected, result);
-        }     
+        }
+        public void Zero()
+        {
+            Ln calc = new Ln();
+            Assert.Throws<Exception>(() => calc.Action(0));
+        }
+        public void Negative()
+        {
+            Ln calc = new Ln();
+            Assert.Throws<Exception>(() => calc.Action(-9));
+        }
     }
 }

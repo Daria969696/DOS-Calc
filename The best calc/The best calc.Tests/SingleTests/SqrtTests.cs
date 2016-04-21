@@ -19,11 +19,10 @@ namespace The_best_calc.Tests.SingleTests
             double result = calc.Action(arg);
             Assert.AreEqual(expected, result);
         }
-       /* [Test]
-        public void Zero()
+        public void Negative()
         {
             Sqrt calc = new Sqrt();
-            Assert.Throws<Exception>(() => calc.Action(-49, 7));
-        }*/
+            Assert.Throws<Exception>(() => calc.Action(-56));
+        }
     }
 }
