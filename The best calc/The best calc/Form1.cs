@@ -16,8 +16,8 @@ namespace The_best_calc
         {
             try
             {
-                double first = Convert.ToDouble(textBox1.Text);
-                double second = Convert.ToDouble(textBox2.Text);
+                double first = Convert.ToDouble(textBox1.Text.Replace(".", ","));
+                double second = Convert.ToDouble(textBox2.Text.Replace(".", ","));
                 ICalculator calculator = Factory.Create(((Button) sender).Name);
                 double answer = calculator.Action(first, second);
                 textBox3.Text = answer.ToString();
@@ -32,7 +32,7 @@ namespace The_best_calc
         {
             try
             {
-                double first = Convert.ToDouble(textBox1.Text);
+                double first = Convert.ToDouble(textBox1.Text.Replace(".", ","));
                 ISingle calculator = FactorySingle.Create(((Button)sender).Name);
                 double answer = calculator.Action(first);
                 textBox3.Text = answer.ToString();
