@@ -1,6 +1,5 @@
 ﻿using System;
 using NUnit.Framework;
-using The_best_calc.Multi;
 using The_best_calc.Single;
 
 namespace The_best_calc.Tests.SingleTests
