@@ -5,9 +5,9 @@ namespace The_best_calc.Single
     public class FactorySingle
     {
         /// <summary>
-        /// 
+        /// организация работы с одним аргументом при нажатии определённой кнопки
         /// </summary>
-        /// <param name="name"></param>
+        /// <param name="name">выбор кнопки</param>
         /// <returns></returns>
         public static ISingle Create(string name)
         {
@@ -33,6 +33,6 @@ namespace The_best_calc.Single
                     throw new Exception("Неизвестная операция");
 
             }
-        } 
+        }
     }
 }

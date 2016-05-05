@@ -5,9 +5,9 @@ namespace The_best_calc.Single
     public class Sin : ISingle
     {
         /// <summary>
-        /// 
+        /// вычисление синуса
         /// </summary>
-        /// <param name="first"></param>
+        /// <param name="first">аргумент</param>
         /// <returns></returns>
         public double Action(double first)
         {

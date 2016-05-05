@@ -3,7 +3,7 @@
     public class Deduction : ICalculator
     {
         /// <summary>
-        /// 
+        /// вычитание двух аргументов
         /// </summary>
         /// <param name="first"></param>
         /// <param name="second"></param>

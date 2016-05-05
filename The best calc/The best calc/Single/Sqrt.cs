@@ -5,9 +5,9 @@ namespace The_best_calc.Single
     public class Sqrt : ISingle
     {
         /// <summary>
-        /// 
+        /// вычисление косинуса с исключениями
         /// </summary>
-        /// <param name="first"></param>
+        /// <param name="first">аргумент</param>
         /// <returns></returns>
         public double Action(double first)
         {

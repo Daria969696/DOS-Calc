@@ -47,10 +47,12 @@
     <Compile Include="MultiTests\AdditionTests.cs" />
     <Compile Include="MultiTests\DeductionTests.cs" />
     <Compile Include="MultiTests\DivisionTests.cs" />
+    <Compile Include="MultiTests\FactoryTests.cs" />
     <Compile Include="MultiTests\MultiplicationTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SingleTests\AtgTests.cs" />
     <Compile Include="SingleTests\CosTests.cs" />
+    <Compile Include="SingleTests\FactorySingleTests.cs" />
     <Compile Include="SingleTests\InvolutionTests.cs" />
     <Compile Include="SingleTests\LgTests.cs" />
     <Compile Include="SingleTests\LnTests.cs" />

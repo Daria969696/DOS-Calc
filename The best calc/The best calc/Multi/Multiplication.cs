@@ -3,7 +3,7 @@
     public class Multiplication : ICalculator
     {
         /// <summary>
-        /// 
+        /// умножение двух аргументов
         /// </summary>
         /// <param name="first"></param>
         /// <param name="second"></param>

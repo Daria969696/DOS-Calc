@@ -2,15 +2,12 @@
 
 namespace The_best_calc.Multi
 {
-    /// <summary>
-    /// 
-    /// </summary>
     public static class Factory
     {
         /// <summary>
-        /// 
+        /// фабрика, отвечающая за действия при нажатии определённых кнопок с двумя аргументами
         /// </summary>
-        /// <param name="name"></param>
+        /// <param name="name">выбор кнопки</param>
         /// <returns></returns>
         public static ICalculator Create(string name)
         {

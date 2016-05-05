@@ -2,13 +2,10 @@
 
 namespace The_best_calc.Multi
 {
-    /// <summary>
-    /// 
-    /// </summary>
     public class Division : ICalculator
     {
         /// <summary>
-        /// 
+        /// деление двух аргументов
         /// </summary>
         /// <param name="first"></param>
         /// <param name="second"></param>

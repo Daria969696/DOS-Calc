@@ -3,9 +3,9 @@
     public interface ISingle
     {
         /// <summary>
-        /// 
+        /// действие над одним аргументом
         /// </summary>
-        /// <param name="first"></param>
+        /// <param name="first">аргумент</param>
         /// <returns></returns>
         double Action(double first);
     }
