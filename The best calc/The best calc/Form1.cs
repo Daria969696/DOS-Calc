@@ -19,9 +19,9 @@ namespace The_best_calc
         }
 
         /// <summary>
-        /// 
+        /// функция обработки двух аргументов
         /// </summary>
-        /// <param name="sender"></param>
+        /// <param name="sender">выполнить действие</param>
         /// <param name="e"></param>
         private void Action(object sender, EventArgs e)
         {
@@ -40,9 +40,9 @@ namespace The_best_calc
         }
 
         /// <summary>
-        /// 
+        /// функция обработки одного аргумента
         /// </summary>
-        /// <param name="sender"></param>
+        /// <param name="sender">выполнить действие</param>
         /// <param name="e"></param>
         private void ActionSingle(object sender, EventArgs e)
         {
